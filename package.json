@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "affected:build:graph": "nx affected -t=build --graph",
     "lint": "nx run-many --target=lint",
+    "project-graph": "npx nx graph",
     "test": "nx run-many --target=test"
   },
   "private": true,
@@ -26,6 +28,7 @@
     "@nx/next": "20.5.0",
     "@nx/playwright": "20.5.0",
     "@nx/react": "20.5.0",
+    "@nx/storybook": "^20.5.0",
     "@nx/vite": "20.5.0",
     "@nx/web": "20.5.0",
     "@nx/workspace": "20.5.0",
@@ -58,6 +61,7 @@
     "nx": "20.5.0",
     "prettier": "^2.6.2",
     "sass": "1.62.1",
+    "storybook": "^8.4.6",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
     "tslib": "^2.3.0",
