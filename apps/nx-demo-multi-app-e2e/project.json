@@ -4,7 +4,7 @@
   "projectType": "application",
   "sourceRoot": "apps/nx-demo-multi-app-e2e/src",
   "tags": [],
-  "implicitDependencies": ["nx-demo-multi-app"],
+  "implicitDependencies": ["demo-app"],
   "// targets": "to see all targets run: nx show project nx-demo-multi-app-e2e --web",
   "targets": {}
 }
