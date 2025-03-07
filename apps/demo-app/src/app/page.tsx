@@ -1,3 +1,5 @@
+import { Button } from '@nx-demo-multi-app/Button';
+
 import styles from './page.module.scss';
 
 export default function Index() {
@@ -16,6 +18,8 @@ export default function Index() {
               Welcome nx-demo-multi-app 👋
             </h1>
           </div>
+
+          <Button />
 
           <div id="hero" className="rounded">
             <div className="text-container">
