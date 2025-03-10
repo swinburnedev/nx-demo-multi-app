@@ -1,10 +1,20 @@
-import styles from './Button.module.css';
+import BootstrapButton from 'react-bootstrap/Button';
 
-export function Button() {
+export interface IButtonProps {
+  children?: string;
+  variant?: string;
+  type?: 'submit' | 'reset' | 'button' | undefined;
+}
+
+export function Button({
+  children,
+  variant = 'primary',
+  type = 'button',
+}: IButtonProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Button!</h1>
-    </div>
+    <BootstrapButton variant={variant} type={type}>
+      {children}
+    </BootstrapButton>
   );
 }
 

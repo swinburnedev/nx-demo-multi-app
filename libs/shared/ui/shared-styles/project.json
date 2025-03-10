@@ -1,0 +1,30 @@
+{
+  "name": "shared-styles",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/ui/shared-styles/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
+    }
+  },
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist/{projectRoot}",
+        "currentVersionResolver": "git-tag",
+        "fallbackCurrentVersionResolver": "disk"
+      }
+    }
+  },
+  "assets": [
+    {
+      "glob": "**/*.scss",
+      "input": "libs/shared/ui/shared-styles/src/lib",
+      "output": "./"
+    }
+  ]
+}

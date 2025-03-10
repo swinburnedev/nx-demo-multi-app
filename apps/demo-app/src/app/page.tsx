@@ -19,7 +19,7 @@ export default function Index() {
             </h1>
           </div>
 
-          <Button />
+          <Button>Shared Button</Button>
 
           <div id="hero" className="rounded">
             <div className="text-container">
