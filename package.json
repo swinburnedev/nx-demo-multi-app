@@ -5,7 +5,8 @@
   "scripts": {
     "affected:build:graph": "nx affected -t=build --graph",
     "lint": "nx run-many --target=lint",
-    "project-graph": "npx nx graph",
+    "project-graph": "nx graph",
+    "storybook": "nx run storybook:static-storybook",
     "test": "nx run-many --target=test"
   },
   "private": true,
