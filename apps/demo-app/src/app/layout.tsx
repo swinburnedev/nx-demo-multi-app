@@ -1,6 +1,5 @@
 import './global.scss';
 
-// import '@nx-demo-multi-app/shared-styles/';
 import '@nx-demo-multi-app/shared-styles';
 
 export const metadata = {
