@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "@nrwl/react": "^19.8.4",
     "bootstrap": "^5.3.3",
     "next": "~15.1.4",
     "react": "19.0.0",
@@ -35,6 +36,9 @@
     "@nx/web": "20.5.0",
     "@nx/workspace": "20.5.0",
     "@playwright/test": "^1.36.0",
+    "@storybook/addon-essentials": "^8.4.6",
+    "@storybook/core-server": "^8.4.6",
+    "@storybook/react-vite": "^8.4.6",
     "@swc-node/register": "~1.9.1",
     "@swc/cli": "~0.3.12",
     "@swc/core": "~1.5.7",
