@@ -4,6 +4,8 @@
   "license": "MIT",
   "scripts": {
     "affected:build:graph": "nx affected -t=build --graph",
+    "affected:test": "nx affected -t=test",
+    "e2e": "nx run-many --target=e2e",
     "lint": "nx run-many --target=lint",
     "project-graph": "nx graph",
     "storybook": "nx run storybook:static-storybook",

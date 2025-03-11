@@ -1,3 +1,5 @@
+'use client';
+
 import { Button } from '@nx-demo-multi-app/Button';
 import { usePageTitle } from '@nx-demo-multi-app/hooks';
 
