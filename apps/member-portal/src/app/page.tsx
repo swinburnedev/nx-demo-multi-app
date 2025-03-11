@@ -1,4 +1,5 @@
 import { Button } from '@nx-demo-multi-app/Button';
+import { usePageTitle } from '@nx-demo-multi-app/hooks';
 
 import styles from './page.module.scss';
 
@@ -8,6 +9,9 @@ export default function Index() {
    *
    * Note: The corresponding styles are in the ./index.scss file.
    */
+
+  usePageTitle('Member Portal');
+
   return (
     <div className={styles.page}>
       <div className="wrapper">
