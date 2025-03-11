@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@nx-demo-multi-app/Button": ["libs/shared/ui/button/src/index.ts"],
+      "@nx-demo-multi-app/hooks": ["libs/shared/hooks/src/index.ts"],
       "@nx-demo-multi-app/shared-styles": [
         "libs/shared/ui/shared-styles/src/index.ts"
       ]
